@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css">
+		
+
+		.navbar{
+			top:0;
+			position:fixed;
+			background-color:rgba(214, 206, 147, 1);
+			width:100%;
+			height:10%;
+			border-bottom: 5px solid gray;
+				
+		}
+
+		li{
+			list-style-type: none ;
+			display:inline;
+			margin-right:60px;
+			
+		}
+
+		ul{
+			text-align: right;
+			padding-top: 15px;
+			margin-right:100px;
+		}
+		.headlogo{
+			top:0;
+			position:fixed;
+			padding-top:10px;
+		}
+
+		.hyperlinks{
+			font-family: heiti sc;
+			color:white;
+			
+		}
+
+
+		body{
+			background-image:url(https://images.getrecipekit.com/20220904015448-veg-20fried-20rice.png?aspect_ratio=16:9&quality=90&) ;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-color:rgba(214, 206, 147, 1);
+		}
+
+			.foreground{
+			top: 0;
+			background-color: rgba(0, 0, 0, .4);
+			background-size: 100%;
+			padding-bottom: 55px;	
+			border-bottom:10px solid gray;	
+		}
+
+		.signup-form{
+			background-color:rgba(230, 204, 178, .9);
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			border-radius: 10px;
+			font-family: heiti sc;
+			padding: 20px;
+			border: 5px solid gray;
+			text-align: center;
+			width: 300px;
+
+		}
+
+		.login-form{
+			background-color:rgba(230, 204, 178, .9);
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			border-radius: 10px;
+			font-family: heiti sc;
+			padding: 20px;
+			border: 5px solid gray;
+			width: 300px;
+			text-align: center;
+
+		}
+
+		a{
+			text-decoration: none;
+			color:white;
+		}
+
+		a:hover{
+			color:lightblue;
+		}
+
+		.hero-text{
+			font-family: phosphate;
+			text-align: center;
+			color: white;
+			padding-top: 100px;
+			background-color: rgba(0, 0, 0, .4);
+			padding-bottom: 50px;
+			font-size:40px;
+
+		}
+
+		.hero-footer{
+			font-size:20px;
+			margin-right:200px;
+			margin-left:200px;
+		}
+
+		p{
+			text-align: center;
+			color: white;
+			font-family: heiti sc;
+		}
+
+		.bestsellers1{
+		
+			display:flex;
+			justify-content: space-evenly;
+			background-color:rgba(230, 204, 178, .9);
+			border-radius:10px;
+			padding: 50px;
+			margin:50px;
+			border:5px solid lightgray;
+		}
+
+		.bestsellers2{
+		
+			display:flex;
+			justify-content: space-evenly;
+			background-color:rgba(230, 204, 178, .9);
+			border-radius:10px;
+			padding: 50px;
+			margin:50px;
+			border:5px solid lightgray;
+		}
+
+
+
+		.rice{
+			border:5px solid lightgray;
+			border-radius:70px;
+			width:200px;
+			height: 250px;
+			overflow:hidden;
+		}
+		
+
+		.card{
+			margin-right:100px;
+			margin-left:100px;
+
+		}
+		.card-text{
+			text-align: center;
+		}
+
+
+		h2{
+			font-family: phosphate;
+			color: white;
+		}
+
+		.bsheader{
+			font-family: phosphate;
+			color: white;
+			text-align: center;	
+			margin-top:200px;
+			font-size:50px ;
+		}
+
+		.forms {
+		    display: flex;          
+		    justify-content: space-around;
+		    margin: 20px;  
+		}
+
+		.registration{
+			text-align: center;
+			font-size:20px;
+		}
+
+		legend{
+			text-align: center;
+			color: white;
+			font-family: heiti sc;
+		}
+
+		.button:hover{
+			background-color:lightblue;
+		}
+	</style>
+
+
+	</head>
+		<body>
+
+
+		<!-- nav bar -->
+		<div class="navbar">
+			<div class="hyperlinks">
+			<ul>
+				<li><a href="#signup"> Sign Up</a></li>
+				<li><a href="#login">Login</a></li>
+				<li><a href="#bestsell">Check our Bestsellers!</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+
+				</ul>
+			</div>
+			<div class="headlogo">
+			<img src="unityrice.jpg" alt="logo" width="75">
+			</div>
+		</div>
+			
+		<!-- hero -->
+		<div class="hero">
+			<div class="hero-text">
+				<div class=hero-header>
+				<h1>• UNITY RICE CO. •</h1>
+				<img src="unityrice.jpg" alt="logo" width="200">
+				<p>A taste of the world... through rice!</p>
+				</div>
+				
+				<div class="hero-footer">		
+				<p>At Unity Rice Co., We aim to bring diversity and to spread the culture of many countries through one very special food– rice! Rice is common in many cultures, but every culture has a unique twist to it! Here, we serve the many shapes and forms one may like to consume rice, with kinds of rice taken from almost every country in the world! </p>
+				</div>	
+			</div>
+			<div class="foreground">
+			</div>
+		</div>
+
+			
+		<!-- bestseller imgs -->
+		<h3 class="bsheader">• Our Bestsellers! •</h3>	
+		<hr>
+		<div class="bestsellers1" id="bestsell">
+			<div class="card">
+				<div class="bsimg">					
+ 					<img src="https://takestwoeggs.com/wp-content/uploads/2022/03/Kimchi-Fried-Rice-Kimchi-bokkeumbap-takestwoeggs-final-photography-1.jpg" class="rice" alt="bestseller1:kimchi-rice">
+ 				</div>
+
+ 				<div class="card-text">	
+ 					<h2>Kimchi Fried Rice</h2>
+ 						<p><u>199 Pesos</u></p>
+ 				</div>
+ 			</div>
+ 			<div class="card">
+				<div class="bsimg">					
+ 					<img src="https://i2.wp.com/lifemadesimplebakes.com/wp-content/uploads/2015/05/Better-Than-Takeout-Fried-Rice-1.jpg" class="rice" alt="bestseller2:fried-rice">
+ 				</div>
+
+ 				<div class="card-text">	
+ 					<h2>Egg Fried Rice</h2>
+ 						<p><u>150 Pesos</u></p>
+ 				</div>		
+ 			</div>
+ 			<div class="card">
+				<div class="bsimg">					
+ 					<img src="https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani.jpg" class="rice" alt="bestseller3:biryani">
+ 				</div>
+
+ 				<div class="card-text">	
+ 					<h2>Biryani</h2>
+ 						<p><u>250 Pesos</u></p>
+ 				</div>		
+ 			</div>
+ 			</div>
+ 		</div>
+ 		<div class="bestsellers2">
+ 			<div class="card">
+				<div class="bsimg">					
+ 					<img src="https://www.jocooks.com/wp-content/uploads/2023/09/nasi-goreng-1-23.jpg" class="rice" alt="bestseller5:nasi-goreng">
+ 				</div>
+
+ 				<div class="card-text">	
+ 					<h2>Nasi Goreng</h2>
+ 						<p><u>149 Pesos</u></p>
+ 				</div>		
+ 			</div>
+ 			<div class="card">
+				<div class="bsimg">					
+ 					<img src="https://cookingformysoul.com/wp-content/uploads/2023/01/chicken-chorizo-paella-6-min.jpg" class="rice" alt="bestseller5:paella">
+ 				</div>
+
+ 				<div class="card-text">	
+ 					<h2>Chicken Paella</h2>
+ 						<p><u>249 Pesos</u></p>
+ 				</div>		
+			</div>
+			<div class="card">
+				<div class="bsimg">					
+ 					<img src="https://tastesbetterfromscratch.com/wp-content/uploads/2023/02/RisottoClassico-170-scaled.jpg" class="rice" alt="bestseller6:risotto">
+ 				</div>
+
+ 				<div class="card-text">	
+ 					<h2>Risotto</h2>
+ 						<p><u>199 Pesos</u></p>
+ 				</div>		
+			</div>
+		</div>
+		<div class="registration">
+			<h2>• Registration •</h2>
+		</div>
+			<div class="forms">
+			<!-- sign up -->
+			<div class="signup-form" id="signup">
+				<h2>Sign In</h2>
+				<form>
+					<label>Username:</label>
+					<input type="text" placeholder="Enter username here" name="user">
+					<br />
+					<br />
+					<label>Password:</label>
+					<input type="password" placeholder="Enter password here" name="pcode">
+					<br />
+					<br />
+					<input type="submit" value="Sign In" class="button">
+
+				</form>
+			</div>
+			<!-- login -->
+			<div class="login-form" id="login">	
+				<h2>Log In</h2>
+				<form>
+					<label>Username:</label>
+					<input type="text" placeholder="Enter username here" name="user">
+					<br />
+					<br />
+					<label>Password:</label>
+					<input type="password" placeholder="Enter password here" name="pcode"> 
+					<br />
+					<br />
+					<input type="submit" value="Log In" class="button">	
+				</form>
+			</div>
+			<div class="comments">
+
+			<fieldset>
+			<legend>COMMENTS</legend>
+				<textarea name="comments" rows="8" cols="60" placeholder="Comment opinions here"></textarea>
+
+			<br>
+			<input class="button" type="submit" value="Comment">
+		</fieldset>
+			</div>
+		</div>
+		<br />
+		<br />
+		<hr>
+
+		<h1 style="text-align:center; color: white; font-family: heiti sc; padding-top:150px;" id="contact">Contact us at unityrice.co@gmail.com!</h1>
+	</body>
+</html>
